@@ -39,7 +39,7 @@
     "connect-modrewrite": "latest",
     "consolidate": "latest",
     "express": "^4.14.0",
-    "helmet": "^2.1.1",
+    "helmet": "^2.1.3",
     "lodash": "latest",
     "meanio": "^0.9.0",
     "meanio-admin": "git://github.com/linnovate/meanio-admin.git#0.6.x",
