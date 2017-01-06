@@ -16,7 +16,7 @@ module.exports = {
     loaders: [{
       test: /\.css$/,
       loader: 'style-loader!css-loader'
-    }, {
+    }, { test: /\.png$/, loader: 'url-loader?limit=100000' },{
       test: /\.js$/,
       exclude: /(node_modules|bower_components|lib)/,
       loader: 'babel?presets[]=es2015&presets[]=stage-1'
