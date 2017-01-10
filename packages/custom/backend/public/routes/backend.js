@@ -2,9 +2,12 @@
     'use strict';
 
     function Backend($stateProvider,$locationProvider) {
-        $stateProvider.state('backend example page', {
+        $stateProvider.state('admin login page', {
             url: '/admin/login',
             templateUrl: 'backend/views/login.html'
+        }).state('admin dasboard page', {
+            url: '/admin/dashboard',
+            templateUrl: 'backend/views/page/dashboard.html'
         }).state('backend circles example', {
             url: '/backend/example/:circle',
             templateUrl: 'backend/views/example.html'

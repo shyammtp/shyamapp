@@ -12,6 +12,10 @@
             res.send('Anyone can access this');
         });
 
+        app.get('/api/login',function(req,res) {
+            console.log(database);
+        });
+
         app.get('/api/backend/example/auth', requiresLogin, function(req, res) {
             res.send('Only authenticated users can access this');
         });
