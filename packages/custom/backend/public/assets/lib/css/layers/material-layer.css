@@ -44,11 +44,7 @@ body {
 .search-form input:-ms-input-placeholder {  
    color: #fff!important;  
 }
-
-.page-content {
-    background: #fbfbfb;
-}
-
+ 
 .navbar {
     height: 64px;
     box-shadow: 0 5px 11px -3px rgba(0, 0, 0, 0.4);
@@ -89,7 +85,8 @@ body {
 }
 
 .sidebar {
-    background: #fbfbfb;
+    background: #141414;
+    box-shadow: -1px 0px 26px #020202;
 }
 
 .sidebar-profile span small {
@@ -97,7 +94,7 @@ body {
 }
 
 .menu {
-    background: #fbfbfb;
+    background: #141414;
 }
 
 .menu.accordion-menu {
@@ -119,13 +116,13 @@ body {
 }
 
 .menu.accordion-menu > li > a:hover {
-    background: #F5F5F5;
+    background: #1D1D1D;
     color: #999999;
     border-radius: 0;
 }
 
 .menu.accordion-menu > li.active.open > a {
-    background: #F5F5F5;
+    background: #1D1D1D;
     border-radius: 0;
 }
 
